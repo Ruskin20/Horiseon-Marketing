@@ -4,10 +4,12 @@
     margin: 0;
 }
 
+/*This body selector maitains the main page background one color*/
 body {
     background-color: white;
 }
 
+/* The next 4 selectors are for the headers title in and information inside the header*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -28,29 +30,35 @@ span {
     color: white;
 }
 
+/* This nav selector maintains the header section in position  */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+
 }
 
+/* This selector maintains the information inside the headers li inline */
 header nav ul li {
     list-style-type: none;
     display: inline-block;
     margin-left: 25px;
 }
 
+/* This selector is for the font inside the header */
 a {
-    color: #ffffff;
+    color: white;
     text-decoration: none;
 }
 
+/* This selector keeps the font in the paragraphs inside the main and aside one size */
 p {
     font-size: 16px;
 }
 
+/* This selector keeps the main image in positon and place  */
 .hero {
     height: 800px;
     width: 100%;
@@ -60,6 +68,7 @@ p {
     background-position: center;
 }
 
+/* The next two selectors are for the images in the main selector. It keeps the images in place*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -70,12 +79,9 @@ p {
     margin-left: 25px;
 }
 
-main {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
+/* These 3 selectors below keep all the area that has the benefits information
+in place. It keeps all the inside inside in place and it keeps all the text one 
+specific font style and color.*/
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -89,11 +95,6 @@ aside {
     color: white
 }
 
-#benefits {
-    margin: 40px;
-    color: white;
-}
-
 h3 {
     margin: 20px 8px;
     text-align: center;
@@ -104,6 +105,17 @@ aside img {
     margin: 10px auto;
     max-width: 150px;
     background-color: #2a607c;
+}
+
+/* The following 5 selectors keep all the information in the main area in place.It
+gives it all the margins needed.  It keeps all the the images 
+in a specific PX. It gives all the h2's a font size,color,
+and puts them in place.*/
+
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
 }
 
 main section {
@@ -128,6 +140,7 @@ main h2 {
     font-size: 36px;
 }
 
+/*The next two elements are for the footer area. It keeps it in place and a specific font-size */
 footer {
     padding: 30px;
     clear: both;
